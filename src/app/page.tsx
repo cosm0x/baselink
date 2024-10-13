@@ -1,5 +1,5 @@
 "use client";
-import { useAccount, useConnect, useDisconnect } from "wagmi";
+import { useAccount, useConnect } from "wagmi";
 import Container from "@/components/Container";
 import Link from "next/link";
 import { Stroke } from "@/icons";
@@ -7,14 +7,11 @@ import { Button } from "@/components/ui/button";
 
 export default function Component() {
   const { isConnected } = useAccount();
-  const { address } = useAccount();
-  const { connectors, connect, status, error } = useConnect();
-  const { disconnect } = useDisconnect();
+  const { connectors, connect, error } = useConnect();
 
   return (
     <Container>
       <div className="flex flex-col justify-center items-center">
-        <div>address: {JSON.stringify(address)}</div>
         <section className="py-8 lg:py-8 px-4 lg:pt-10 lg:px-7 pb-16">
           <header className="flex flex-col gap-y-12 xl:max-w-[1080px] xl:mx-auto">
             <div className="flex flex-col ">

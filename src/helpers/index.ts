@@ -58,4 +58,7 @@ const isValidAddress = (address: string) => {
   return /^(0x)?[0-9a-f]{40}$/i.test(address);
 };
 
-export { formatDate, isValidAddress, formatUnixTimestamp };
+function shortenAddress(address: `0x${string}` | undefined) {
+  return `${address?.slice(0, 4)}..${address?.slice(-4)}`;
+}
+export { formatDate, isValidAddress, formatUnixTimestamp, shortenAddress };

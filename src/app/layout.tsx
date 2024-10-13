@@ -4,10 +4,14 @@ import { Inter } from "next/font/google";
 import { headers } from "next/headers";
 import { type ReactNode } from "react";
 import { cookieToInitialState } from "wagmi";
-
-import { getConfig } from "../wagmi";
-import { Providers } from "./providers";
-
+import { getConfig } from "@/lib/wagmi";
+import WagmiProvider from "@/providers/wagmi-provider";
+import { ThemeProvider } from "@/providers/theme-provider";
+import Pancake from "../components/Pancake";
+import { Toaster } from "@/components/ui/toaster";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import MobileNav from "../components/MobileNav";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -30,7 +34,21 @@ export default function RootLayout(props: { children: ReactNode }) {
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-        <Providers initialState={initialState}>{props.children}</Providers>
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="dark"
+          disableTransitionOnChange
+        >
+          <WagmiProvider initialState={initialState}>
+            <Pancake>
+              <Navbar />
+              <main className="px-4 py-4 mb-24 lg:py-0">{props?.children}</main>
+              <Toaster />
+              <MobileNav />
+              <Footer />
+            </Pancake>
+          </WagmiProvider>
+        </ThemeProvider>
       </body>
     </html>
   );
