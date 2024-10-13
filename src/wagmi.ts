@@ -6,7 +6,6 @@ export function getConfig() {
   return createConfig({
     chains: [baseSepolia],
     connectors: [
-      injected(),
       coinbaseWallet({ appName: "Baselink", preference: "smartWalletOnly" }),
     ],
     storage: createStorage({

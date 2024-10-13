@@ -32,7 +32,7 @@ export default function Component() {
                 className="text-lg font-medium leading-[1.75em] text-center 
           md:w-[70%] md:mx-auto lg:w-[60%] lg:text-2xl mt-12"
               >
-                Create links and Start accepting USDT right now!
+                Create free USDT payment links in seconds!
               </p>
 
               <div className="flex items-center justify-center mt-4">
@@ -53,9 +53,7 @@ export default function Component() {
                         type="button"
                         className="bg-yellow font-bold text-base-100 px-5 py-3 rounded-lg lg:px-9"
                       >
-                        {connector.name == "Injected"
-                          ? "Connect wallet → "
-                          : "I dont have a wallet"}
+                        Connect Smart wallet →
                       </Button>
                     ))}
                   </>
