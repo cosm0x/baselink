@@ -1,5 +1,5 @@
 const baselink = {
-  address: "0xD25069333116D489873D2ecae0A18DBC0253401d",
+  address: "0x348f9695E78b67931Fd9CB705e8bCbdDDA15cDB9",
   abi: [
     {
       inputs: [
@@ -154,12 +154,12 @@ const baselink = {
               type: "uint256",
             },
             {
-              internalType: "enum Linkie.Status",
+              internalType: "enum BaseLink.Status",
               name: "status",
               type: "uint8",
             },
           ],
-          internalType: "struct Linkie.Listing[]",
+          internalType: "struct BaseLink.Listing[]",
           name: "",
           type: "tuple[]",
         },
@@ -210,12 +210,12 @@ const baselink = {
               type: "uint256",
             },
             {
-              internalType: "enum Linkie.Status",
+              internalType: "enum BaseLink.Status",
               name: "status",
               type: "uint8",
             },
           ],
-          internalType: "struct Linkie.Listing",
+          internalType: "struct BaseLink.Listing",
           name: "",
           type: "tuple",
         },
@@ -264,7 +264,7 @@ const baselink = {
           type: "uint256",
         },
         {
-          internalType: "enum Linkie.Status",
+          internalType: "enum BaseLink.Status",
           name: "status",
           type: "uint8",
         },

@@ -6,11 +6,12 @@ import { Stroke } from "@/icons";
 import { Button } from "@/components/ui/button";
 
 export default function Component() {
-  const { isConnected } = useAccount();
+  const { isConnected, address } = useAccount();
   const { connectors, connect, error } = useConnect();
 
   return (
     <Container>
+      <div>{address}</div>
       <div className="flex flex-col justify-center items-center">
         <section className="py-8 lg:py-8 px-4 lg:pt-10 lg:px-7 pb-16">
           <header className="flex flex-col gap-y-12 xl:max-w-[1080px] xl:mx-auto">
