@@ -27,7 +27,7 @@ export default function Component() {
 
               <p
                 className="text-lg font-medium leading-[1.75em] text-center 
-          md:w-[70%] md:mx-auto lg:w-[60%] lg:text-2xl mt-12"
+          md:w-[70%] md:mx-auto lg:w-[60%] mt-12 lg:text-4xl"
               >
                 Create free USDT payment links in seconds!
               </p>
@@ -50,7 +50,7 @@ export default function Component() {
                         type="button"
                         className="bg-yellow font-bold text-base-100 px-5 py-3 rounded-lg lg:px-9"
                       >
-                        Connect Smart wallet →
+                        Get started →
                       </Button>
                     ))}
                   </>
