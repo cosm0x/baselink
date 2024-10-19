@@ -23,7 +23,11 @@ const Navbar = () => {
           <div className="flex items-center gap-x-1">
             <ToggleMode />
             <div className="flex items-center gap-x-1">
-              <UserIcon size={14} /> {shortenAddress(address)}
+              {address && (
+                <>
+                  <UserIcon size={14} /> {shortenAddress(address)}
+                </>
+              )}
             </div>
           </div>
         </div>

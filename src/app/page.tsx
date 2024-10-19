@@ -11,7 +11,6 @@ export default function Component() {
 
   return (
     <Container>
-      <div>{address}</div>
       <div className="flex flex-col justify-center items-center">
         <section className="py-8 lg:py-8 px-4 lg:pt-10 lg:px-7 pb-16">
           <header className="flex flex-col gap-y-12 xl:max-w-[1080px] xl:mx-auto">
@@ -58,10 +57,6 @@ export default function Component() {
                 )}
               </div>
               <div className="text-center">{error?.message}</div>
-            </div>
-
-            <div className="flex items-center justify-center">
-              <div className="w-[60%]">Welcome to BaseLink</div>
             </div>
           </header>
         </section>

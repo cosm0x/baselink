@@ -59,6 +59,7 @@ const isValidAddress = (address: string) => {
 };
 
 function shortenAddress(address: `0x${string}` | undefined) {
+  if (!address) return null;
   return `${address?.slice(0, 4)}..${address?.slice(-4)}`;
 }
 export { formatDate, isValidAddress, formatUnixTimestamp, shortenAddress };
