@@ -18,13 +18,13 @@ BaseLink lets users create listings, share links, and receive USDT payments dire
 
 - [Live Dapp](https://baselnk.vercel.app)
 
-- [Demo Video](https://youtu.be/coming_soon)
+- [Demo Video](https://youtu.be/TLY0ymsPMnc)
 
-- [Verified Smart Contract (Base Sepolia scan)](https://https://sepolia.basescan.org)
+- [Verified Smart Contract (Base Sepolia scan)](https://sepolia.basescan.org/address/0x348f9695E78b67931Fd9CB705e8bCbdDDA15cDB9)
 
-- [Create Listing Transaction on Demo Video (Base Sepolia scan)](https://https://sepolia.basescan.org)
+- [Create Listing Transaction (Base Sepolia scan)](https://sepolia.basescan.org/tx/0x234cfa0eeee2a629b23b40827d1bab431732db5bab29ca93b595d1bb63083beb)
 
-- [Pay Listing Transaction on Demo Video (base Sepolia scan) ](https://https://sepolia.basescan.org)
+- [Pay Listing Transaction (base Sepolia scan) ](https://sepolia.basescan.org/tx/0xb4a1d2e2add16667e46692f14b5cc116c505165a050d0c1a3050b488c1c2071f)
 
 ## Tech Stack
 
@@ -43,3 +43,15 @@ BaseLink lets users create listings, share links, and receive USDT payments dire
 - Add Images and videos to listings
 
 - Add public listing page for verified businesses (Marketplace)
+
+## Previews
+
+![homepage](https://baselnk.vercel.app/img/homepage.png)
+
+![dashboard](https://baselnk.vercel.app/img/dashboard.png)
+
+![create_listing](https://baselnk.vercel.app/img/create_listing.png)
+
+![view_listing](https://baselnk.vercel.app/img/view_listing.png)
+
+![payment_page](https://baselnk.vercel.app/img/payment_page.png)
