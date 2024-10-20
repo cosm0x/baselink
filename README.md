@@ -20,6 +20,8 @@ BaseLink lets users create listings, share links, and receive USDT payments dire
 
 - [Demo Video](https://youtu.be/TLY0ymsPMnc)
 
+- [Presentation Slides](https://baselnk.vercel.app/BaseLink_presentation.pdf)
+
 - [Verified Smart Contract (Base Sepolia scan)](https://sepolia.basescan.org/address/0x348f9695E78b67931Fd9CB705e8bCbdDDA15cDB9#events)
 
 - [Smart Wallet Create Listing Transaction (Base Sepolia scan)](https://sepolia.basescan.org/tx/0x234cfa0eeee2a629b23b40827d1bab431732db5bab29ca93b595d1bb63083beb)

@@ -8,7 +8,6 @@ import { Button } from "@/components/ui/button";
 export default function Component() {
   const { isConnected, address } = useAccount();
   const { connectors, connect, error } = useConnect();
-  connectors && console.log(connectors);
 
   return (
     <Container>
