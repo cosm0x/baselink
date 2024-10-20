@@ -20,29 +20,35 @@ BaseLink lets users create listings, share links, and receive USDT payments dire
 
 - [Demo Video](https://youtu.be/TLY0ymsPMnc)
 
-- [Verified Smart Contract (Base Sepolia scan)](https://sepolia.basescan.org/address/0x348f9695E78b67931Fd9CB705e8bCbdDDA15cDB9)
+- [Verified Smart Contract (Base Sepolia scan)](https://sepolia.basescan.org/address/0x348f9695E78b67931Fd9CB705e8bCbdDDA15cDB9#events)
 
-- [Create Listing Transaction (Base Sepolia scan)](https://sepolia.basescan.org/tx/0x234cfa0eeee2a629b23b40827d1bab431732db5bab29ca93b595d1bb63083beb)
+- [Smart Wallet Create Listing Transaction (Base Sepolia scan)](https://sepolia.basescan.org/tx/0x234cfa0eeee2a629b23b40827d1bab431732db5bab29ca93b595d1bb63083beb)
 
-- [Pay Listing Transaction (base Sepolia scan) ](https://sepolia.basescan.org/tx/0xb4a1d2e2add16667e46692f14b5cc116c505165a050d0c1a3050b488c1c2071f)
+- [Smart Wallet Pay Listing Transaction (base Sepolia scan) ](https://sepolia.basescan.org/tx/0xb4a1d2e2add16667e46692f14b5cc116c505165a050d0c1a3050b488c1c2071f)
+
+- [EOA Create Listing Transaction (Base Sepolia scan)](https://sepolia.basescan.org/tx/0x81356115fb6eff94b27daa51740036352b088e0448f6543777701dcc5e0121d2)
+
+- [EOA Wallet Pay Listing Transaction (base Sepolia scan) ](https://sepolia.basescan.org/tx/0x88aa50c47998a878273a7b11ec914ed549a92f6f973e2f768a0043d30dcca3ad)
 
 ## Tech Stack
 
-- **Backend**: Solidity, Remix
+- **Backend**: Solidity, Remix, PostgreSql
 
 - **Frontend**: NextJs, Wagmi library, Base smart wallet for blockchain interaction
 
-- **Approach**: Associate listings with smart wallet addresses, facilitate payments via smart contract on BASE(Sepolia) blockchain for speed, and gas free!
+- **Approach**: Associate listings with smart wallet addresses on smart contract. Facilitate payments via smart contract on BASE(Sepolia) blockchain for speed, and gas free!
 
 ## Road Map (v0.0.1)
 
 - incorporate sponsored gas for managing listings on mainnet
 
+- make payments (approval and transfer) one click
+
 - Add optional email notification on received payments
 
 - Add Images and videos to listings
 
-- Add public listing page for verified businesses (Marketplace)
+- Add public listing page for verified social media businesses (Marketplace)
 
 ## Previews
 

@@ -5,6 +5,8 @@ import ToggleMode from "@/components/ToggleMode";
 import { useAccount, useDisconnect } from "wagmi";
 import { shortenAddress } from "@/helpers";
 import { UserIcon } from "lucide-react";
+import { LogOutIcon } from "lucide-react";
+import { Button } from "./ui/button";
 
 const Navbar = () => {
   const { address } = useAccount();
@@ -29,6 +31,11 @@ const Navbar = () => {
                 </>
               )}
             </div>
+            <LogOutIcon
+              size={14}
+              className="ml-2 hidden lg:block cursor-pointer"
+              onClick={() => disconnect()}
+            />
           </div>
         </div>
       </Container>

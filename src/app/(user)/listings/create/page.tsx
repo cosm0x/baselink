@@ -142,7 +142,7 @@ export default function Create() {
             </div>
 
             <div className="grid gap-3">
-              <Label htmlFor="rate">Price</Label>
+              <Label htmlFor="rate">Price $</Label>
               <Input
                 id="rate"
                 type="number"
@@ -190,7 +190,7 @@ export default function Create() {
               <Label htmlFor="content">Description</Label>
               <Textarea
                 id="content"
-                placeholder="Nike Air Jordan"
+                placeholder="Nigerian made textile, wrapped and dyed in century long dying mixtures which gives off vibrant colours to your designs."
                 className="min-h-4"
                 name="description"
                 rows={5}
