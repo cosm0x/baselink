@@ -108,7 +108,7 @@ export default function ListingPage({ params }: { params: { id: string } }) {
       ? parseEther((quantity * listing.rate).toString())
       : "0";
 
-  // simulate cUSD approval
+  // simulate usdt approval
   const {
     data: approvalData,
     status,
@@ -232,7 +232,7 @@ export default function ListingPage({ params }: { params: { id: string } }) {
           {hash && (
             <small>
               <a
-                href={`https://testnet.opbnbscan.com/tx/${payHash}`}
+                href={`https://sepolia.basescan.org/tx/${payHash}`}
                 target="_blank"
               >
                 View Txn{" "}

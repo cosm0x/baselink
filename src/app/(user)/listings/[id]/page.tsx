@@ -62,7 +62,7 @@ export default function ListingPage({ params }: { params: { id: string } }) {
 
   const copyLink = () => {
     navigator.clipboard
-      .writeText(`http://localhost:3000/p/${params?.id}`)
+      .writeText(`https://baselnk.vercel.app/p/${params?.id}`)
       .then(() => {
         toast({
           description: "Listing link copied",
@@ -102,7 +102,7 @@ export default function ListingPage({ params }: { params: { id: string } }) {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>
                   <a
-                    href={`https://testnet.opbnbscan.com/tx/${tx}`}
+                    href={`https://sepolia.basescan.org/tx/${tx}`}
                     target="_blank"
                   >
                     View Txn{" "}
